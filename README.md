@@ -9,3 +9,7 @@ Unit Testing is done with PHPUnit, to run tests...
 
     cd tests
     phpunit
+
+CakeSpec is Open Source Software created and managed by PRONIQUE Software.
+
+http://www.pronique.com
