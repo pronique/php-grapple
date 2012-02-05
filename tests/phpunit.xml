@@ -1,0 +1,12 @@
+<!-- See README.txt for instructions on running unit tests -->
+<phpunit coverage-text="true" colors="true" bootstrap="bootstrap.php">
+    <testsuites>
+        <testsuite name="PHPGrapple">
+            <file>PHPGrappleTests.php</file>
+            <file>PHPGrappleClassTests.php</file>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+    </logging>
+</phpunit>
